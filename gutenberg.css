@@ -1,0 +1,29 @@
+/* myStyle.css */
+body {
+    background-color: #f8f8aa;
+    color: #0a0a0a;
+    font: sans-serif
+   }
+   h1 {
+    color: #928549;
+    text-align: center;
+    font: bold 200%;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   h2 {
+       color: #794f01;
+       text-align: center;
+       font-size: 200%;
+       font-style: italic;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   h3 {
+       color: #884d00;
+       text-align: center;
+       font-size: 200%;
+       font-family: cursive;
+   }
+   p {
+    color: #532c00;
+    font-family: cursive;
+   }
