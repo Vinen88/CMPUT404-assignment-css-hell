@@ -23,7 +23,7 @@ Code is licensed under the Apache 2.0 license.
 
 
 Part 1:
-Changes made, text is now cursive for all headers but h1 that will be 'Times New Roman', Times, serif
+Changes made, text is now  'Times New Roman', Times, serif except for the main body which is Verdana, Arial, Helvetica, sans-serif
 header sizes adjusted, h1 is 200% h2/h3 is 175% h4/h5 is 150%
 added boarder to all images and centered them as well as rounded boarder edges. 
 changed background colour to yellowish
