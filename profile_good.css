@@ -7,6 +7,21 @@ img {
   margin-right: auto;
   width: 100%;
 }
+h1{
+  font-size: 200%;
+}
+h2{
+  font-size: 200%;
+  text-align: center;
+}
+h3{
+  font-size: 125%;
+  color: darkslategray;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
 .header {
     grid-area: header;
     background-color: #f1f1f1;
@@ -52,9 +67,9 @@ img {
     justify-content: center
   }
   .image{
-    flex-basis: 60%;
+    flex-basis: 100%;
   }
   .text{
-    font-size: 20px;
     padding-left: 40px;
+    padding-right: 40px;
   }
