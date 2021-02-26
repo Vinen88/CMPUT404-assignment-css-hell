@@ -1,0 +1,104 @@
+img {
+    align-content: left;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 300px;
+  }
+  body{
+    background: slateblue;
+  }
+  p{
+      color: sandybrown;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h1{
+    font-size: 200%;
+    font-style: oblique;
+    font-weight: 900;
+    font-family: monospace;
+    color: purple;
+  }
+  h2{
+    font-size: 170%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+    color: purple;
+  }
+  h3{
+    font-size: 125%;
+    color: orange;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: auto;
+  }
+  p{
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .header {
+      grid-area: header;
+      background-image: url(Myself.jpeg);
+      padding: 4%;
+      margin-bottom: 1em;
+      text-align: center;
+      font-size: 125%;
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    .image{
+      flex-basis: 100%;
+    }
+    .text{
+      padding-left: 1em;
+      padding-right: 2em;
+      text-align: left;
+    }
+  
+     /* The sidebar menu adapted from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp*/
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 15em; /* Stay at the top */
+    right: 0.5em;
+    background-color: slategray; /* Black */
+    background-image: url(Myself.jpeg);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orange;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-right: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
